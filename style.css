@@ -1,0 +1,99 @@
+/* https://coolors.co/59344f-ffcad4-b0d0d3-c08497-0f7173 */
+
+#intro {
+    background-color: #59344f;
+    color: white;
+    height: 100vh;
+}
+
+#intro h1 {
+    font-size: 96px;
+    animation: fadein ease-in 1s;
+}
+
+#intro h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+#into code {
+    margin-top: 32px;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+#about {
+    background-color: #ffcad4;
+    color: white;
+    padding: 30px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#intro #downArrow {
+    position: absolute;
+    bottom: 30px;
+    color: #ffcad4;
+
+    /* opacity: 0; */
+    animation-name: fadein;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#downArrow span {
+    font-size: 75px;
+}
+
+#intro #downArrow:hover {
+    color: #59344f;
+}
+
+section {
+    min-height: 30vh;
+}
+#contact {
+    background-color: #c08497;
+    color: white;
+    padding: 25px;
+}
+
+#contact input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#contact a {
+    color: white;
+}
+
+#portfolio {
+    background-color: #0f7173;
+}
+
+#contact .btn {
+    width: 100px;
+}
+
+footer {
+    background-color: white;
+    color: w;
+}
